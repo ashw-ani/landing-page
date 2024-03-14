@@ -1,0 +1,8 @@
+.headerlink {
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all.2s;
+}
+.headerlink:hover {
+  transform: scale(1.1);
+}
