@@ -52,6 +52,7 @@ option {
   background-color: #213343;
   transition: all 0.2s;
   font-size: 1rem;
+  color:#fff
 }
 .button:hover {
   transform: scale(1.02);
