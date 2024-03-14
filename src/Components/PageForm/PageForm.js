@@ -36,6 +36,7 @@ const PageForm = (props) => {
           className={styles.inputfield}
           required
         >
+            <option value="">select a skill</option>
           <option value="JavaScript">JavaScript</option>
           <option value="React.Js">React.Js</option>
           <option value="API">API</option>
