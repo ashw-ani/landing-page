@@ -18,7 +18,7 @@ const PageForm = (props) => {
           required
         />
         <label>Gender</label>
-        <div className={styles.xc}>
+        <div className={styles.radiodiv}>
           <>
             <input type="radio" name="gender" value="Male" required />
             <label for="gender">Male</label>
@@ -36,7 +36,7 @@ const PageForm = (props) => {
           className={styles.inputfield}
           required
         >
-            <option value="">select a skill</option>
+          <option value="">select a skill</option>
           <option value="JavaScript">JavaScript</option>
           <option value="React.Js">React.Js</option>
           <option value="API">API</option>
